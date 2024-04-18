@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/BRUSHSCI.TTF",
+      "sha1": "bab668937569a81f8a7a4fdc7e146a7d7826a792"
+    },
+    {
+      "path": "src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/BrushScriptStd.otf",
+      "sha1": "ec069241d0f226f37586bff28e36acedf5071fdf"
+    },
+    {
+      "path": "src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Font Awesome 6 Brands-Regular-400.otf",
+      "sha1": "f9156525e1867571c2badfcad7513a82eff091bb"
+    },
+    {
+      "path": "src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Font Awesome 6 Free-Regular-400.otf",
+      "sha1": "039eb8760332bbb9beee43d6b13c22b328c085f3"
+    },
+    {
+      "path": "src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Font Awesome 6 Free-Solid-900.otf",
+      "sha1": "b29db709ddc883a94f8ec62b5b56e1b63bc71ce3"
+    },
+    {
+      "path": "src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Jacquard12Charted-Regular.ttf",
+      "sha1": "b4648910c960927ba9c58539a194c674b8b0f5eb"
+    },
+    {
+      "path": "src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/OFL.txt",
+      "sha1": "3104ce88579e57fe3f84c4a526d16f3297ec805d"
+    }
+  ]
+}

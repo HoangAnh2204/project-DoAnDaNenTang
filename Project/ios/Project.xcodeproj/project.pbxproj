@@ -14,6 +14,13 @@
 		96905EF65AED1B983A6B3ABC /* libPods-Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Project.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		B4375229F0B14472B9FCF5B0 /* BrushScriptStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF697CFBCFDE4E0991716FA8 /* BrushScriptStd.otf */; };
+		F751EBC7DD4D44BE98041348 /* Font Awesome 6 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F0D7AF543BF422095AC3BEC /* Font Awesome 6 Brands-Regular-400.otf */; };
+		C8354015B8384650B6E5468B /* Font Awesome 6 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5E8B513862405180C45BD1 /* Font Awesome 6 Free-Regular-400.otf */; };
+		139181BEC65646C2B6D2562D /* Font Awesome 6 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = BAB14F3A1D484BB7B37C57BC /* Font Awesome 6 Free-Solid-900.otf */; };
+		722DC2006F634D98B4FD93A3 /* BRUSHSCI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F388B689D0944DEA802745E1 /* BRUSHSCI.TTF */; };
+		09AF8AA8FF314F34A68A01F3 /* Jacquard12Charted-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF4B8ABF1FB2438BB149E428 /* Jacquard12Charted-Regular.ttf */; };
+		E600C8702AB54B81AA4F42B5 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D632FFD48EE4406A8FDA4447 /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Project/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		DF697CFBCFDE4E0991716FA8 /* BrushScriptStd.otf */ = {isa = PBXFileReference; name = "BrushScriptStd.otf"; path = "../src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/BrushScriptStd.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F0D7AF543BF422095AC3BEC /* Font Awesome 6 Brands-Regular-400.otf */ = {isa = PBXFileReference; name = "Font Awesome 6 Brands-Regular-400.otf"; path = "../src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Font Awesome 6 Brands-Regular-400.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F5E8B513862405180C45BD1 /* Font Awesome 6 Free-Regular-400.otf */ = {isa = PBXFileReference; name = "Font Awesome 6 Free-Regular-400.otf"; path = "../src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Font Awesome 6 Free-Regular-400.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAB14F3A1D484BB7B37C57BC /* Font Awesome 6 Free-Solid-900.otf */ = {isa = PBXFileReference; name = "Font Awesome 6 Free-Solid-900.otf"; path = "../src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Font Awesome 6 Free-Solid-900.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F388B689D0944DEA802745E1 /* BRUSHSCI.TTF */ = {isa = PBXFileReference; name = "BRUSHSCI.TTF"; path = "../src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/BRUSHSCI.TTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF4B8ABF1FB2438BB149E428 /* Jacquard12Charted-Regular.ttf */ = {isa = PBXFileReference; name = "Jacquard12Charted-Regular.ttf"; path = "../src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/Jacquard12Charted-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D632FFD48EE4406A8FDA4447 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../src/asset/fonts/fontawesome-free-6.5.2-desktop/otfs/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				41AB33612ADC4B17BCC8C829 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -130,6 +145,21 @@
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
+		};
+		41AB33612ADC4B17BCC8C829 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				DF697CFBCFDE4E0991716FA8 /* BrushScriptStd.otf */,
+				9F0D7AF543BF422095AC3BEC /* Font Awesome 6 Brands-Regular-400.otf */,
+				3F5E8B513862405180C45BD1 /* Font Awesome 6 Free-Regular-400.otf */,
+				BAB14F3A1D484BB7B37C57BC /* Font Awesome 6 Free-Solid-900.otf */,
+				F388B689D0944DEA802745E1 /* BRUSHSCI.TTF */,
+				DF4B8ABF1FB2438BB149E428 /* Jacquard12Charted-Regular.ttf */,
+				D632FFD48EE4406A8FDA4447 /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -193,6 +223,13 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				B4375229F0B14472B9FCF5B0 /* BrushScriptStd.otf in Resources */,
+				F751EBC7DD4D44BE98041348 /* Font Awesome 6 Brands-Regular-400.otf in Resources */,
+				C8354015B8384650B6E5468B /* Font Awesome 6 Free-Regular-400.otf in Resources */,
+				139181BEC65646C2B6D2562D /* Font Awesome 6 Free-Solid-900.otf in Resources */,
+				722DC2006F634D98B4FD93A3 /* BRUSHSCI.TTF in Resources */,
+				09AF8AA8FF314F34A68A01F3 /* Jacquard12Charted-Regular.ttf in Resources */,
+				E600C8702AB54B81AA4F42B5 /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
