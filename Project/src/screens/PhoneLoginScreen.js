@@ -8,7 +8,7 @@ const PhoneLoginScreen = ({ navigation }) => {
   const handleContinue = () => {
     // Xử lý logic khi người dùng nhấn nút "Continue"
     // Ví dụ: chuyển hướng sang trang khác
-    navigation.navigate('OtpVerificationScreen');
+    navigation.navigate('OTP');
   };
 
   return (

@@ -5,7 +5,7 @@ import GradientBackground from '../GradientBackground';
 const LoginScreen = ({ navigation }) => {
   const handleFacebookLogin = () => {
     // Chuyển hướng sang trang đăng nhập Facebook
-    navigation.navigate('FacebookLogin');
+    navigation.navigate('FbLogIn');
   };
 
   const handlePhoneLogin = () => {
