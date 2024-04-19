@@ -9,6 +9,8 @@ import PhoneLogin from '../screens/PhoneLoginScreen';
 import OtpVerificationScreen from '../screens/OtpVerificationScreen';
 import SignUpScreen from '../screens/SignUpScreen';
 import FacebookLoginScreen from '../screens/FacebookLogInScreen';
+import FacebookAccountScreen from '../screens/FacebookAccountScreen';
+import HomeScreen from '../screens/HomeScreen';
 
 
 const Stack = createNativeStackNavigator();
@@ -24,6 +26,8 @@ export default function appNavigation() {
             <Stack.Screen name='OTP' options={{headerShown: false}} component={OtpVerificationScreen}/>
             <Stack.Screen name='SignUp' options={{headerShown: false}} component={SignUpScreen}/>
             <Stack.Screen name='FbLogIn' options={{headerShown: false}} component={FacebookLoginScreen}/>
+            <Stack.Screen name='FbAcc' options={{headerShown: false}} component={FacebookAccountScreen}/>
+            <Stack.Screen name='Home' options={{headerShown: false}} component={HomeScreen}/>
 
         </Stack.Navigator>
     </NavigationContainer>

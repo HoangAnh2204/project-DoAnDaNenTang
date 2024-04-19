@@ -13,6 +13,12 @@ const PhoneLoginScreen = ({ navigation }) => {
 
   return (
     <GradientBackground style={styles.container}>
+    <TouchableOpacity
+        style={styles.backButton}
+        onPress={() => navigation.goBack()}
+      >
+        <Text style={styles.backButtonText}>Back</Text>
+      </TouchableOpacity>
       <View style={styles.contentContainer}>
         <Text style={styles.title}>My number is</Text>
         <View style={styles.inputContainer}>
@@ -87,6 +93,20 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#fff',
     textAlign: 'center',
+  },
+  backButton: {
+    position: 'absolute',
+    top: 20,
+    left: 20,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    backgroundColor: '#4C6EF5',
+    borderRadius: 5,
+  },
+  backButtonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
 

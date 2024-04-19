@@ -11,7 +11,7 @@ const FacebookLoginScreen = ({ navigation}) => {
   const handleLogin = () => {
     // Xử lý logic đăng nhập tại đây
     console.log('Logging in with:', email, password);
-    navigation.navigate('')
+    navigation.navigate('FbAcc')
   };
 
   const handleCreateAccount = () => {
